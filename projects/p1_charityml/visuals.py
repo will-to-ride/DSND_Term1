@@ -64,7 +64,7 @@ def evaluate(results, accuracy, f1):
 
     # Constants
     bar_width = 0.3
-    colors = ['#A00000','#00A0A0','#00A000']
+    colors = ['#A00000','#00A0A0','#FFFF00']
     
     # Super loop to plot four panels of data
     for k, learner in enumerate(results.keys()):
